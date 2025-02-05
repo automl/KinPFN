@@ -1,0 +1,4 @@
+info_dict:
+  total_mae_for_set: 0.08305147218082895
+  training_error: 2.162356206348964
+loss: 1.4269665479660034

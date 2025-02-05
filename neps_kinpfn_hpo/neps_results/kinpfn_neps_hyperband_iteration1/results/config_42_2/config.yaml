@@ -1,0 +1,9 @@
+buckets: 10000
+emsize: 256
+epochs: 3000
+learning_rate: 0.0002629525544155514
+nhead: 8
+nhid: 512
+nlayers: 8
+seq_len: 700
+steps: 54

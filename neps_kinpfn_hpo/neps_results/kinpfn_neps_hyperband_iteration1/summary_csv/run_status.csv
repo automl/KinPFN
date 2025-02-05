@@ -1,0 +1,7 @@
+description,value
+num_evaluated_configs,100
+num_pending_configs,2
+num_pending_configs_with_worker,0
+best_loss,1.1761184930801392
+best_config_id,18_1
+num_error,0

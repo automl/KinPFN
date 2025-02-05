@@ -1,0 +1,291 @@
+NLL and MAE:
+Training Point: 10
+KinPFN Mean MAE Loss: 0.08429186046123505
+KinPFN Mean NLL Loss: 1.37385094165802
+KDE Mean MAE: 0.0813377619749033
+KDE Mean NLL Loss: 1.4369486687914679
+GMM Mean MAE (n_components=2): 0.10026934472184215
+DP-GMM Mean MAE (n_components=2): 0.0865672643020467
+GMM Mean NLL Loss (n_components=2): 2.3121652205507
+DP-GMM Mean NLL Loss (n_components=2): 1.6284467130668039
+GMM Mean MAE (n_components=3): 0.0987835012690767
+DP-GMM Mean MAE (n_components=3): 0.08665911161536016
+GMM Mean NLL Loss (n_components=3): 5.2469360610637175
+DP-GMM Mean NLL Loss (n_components=3): 1.6268268458501363
+GMM Mean MAE (n_components=4): 0.09515041468599071
+DP-GMM Mean MAE (n_components=4): 0.0864532316320511
+GMM Mean NLL Loss (n_components=4): 13.132512693751265
+DP-GMM Mean NLL Loss (n_components=4): 1.629370411016169
+GMM Mean MAE (n_components=5): 0.09290166475056896
+DP-GMM Mean MAE (n_components=5): 0.08599581740634205
+GMM Mean NLL Loss (n_components=5): 37.5844931272237
+DP-GMM Mean NLL Loss (n_components=5): 1.6256233989359936
+Training Point: 25
+KinPFN Mean MAE Loss: 0.056062906980514526
+KinPFN Mean NLL Loss: 1.2435252666473389
+KDE Mean MAE: 0.06900251060314497
+KDE Mean NLL Loss: 1.2559182600040433
+GMM Mean MAE (n_components=2): 0.08479797901539965
+DP-GMM Mean MAE (n_components=2): 0.07743979462902459
+GMM Mean NLL Loss (n_components=2): 1.3611932444280979
+DP-GMM Mean NLL Loss (n_components=2): 1.3529383371377208
+GMM Mean MAE (n_components=3): 0.08661955230212942
+DP-GMM Mean MAE (n_components=3): 0.07742430897023375
+GMM Mean NLL Loss (n_components=3): 1.5829479472735477
+DP-GMM Mean NLL Loss (n_components=3): 1.3548983210405983
+GMM Mean MAE (n_components=4): 0.08597604633633447
+DP-GMM Mean MAE (n_components=4): 0.07700744558641921
+GMM Mean NLL Loss (n_components=4): 1.992239846212854
+DP-GMM Mean NLL Loss (n_components=4): 1.3557658867951354
+GMM Mean MAE (n_components=5): 0.084176716657532
+DP-GMM Mean MAE (n_components=5): 0.07677546126981455
+GMM Mean NLL Loss (n_components=5): 2.770831856360798
+DP-GMM Mean NLL Loss (n_components=5): 1.3571740606158162
+Training Point: 50
+KinPFN Mean MAE Loss: 0.03925587981939316
+KinPFN Mean NLL Loss: 1.2046836614608765
+KDE Mean MAE: 0.0653268327416451
+KDE Mean NLL Loss: 1.2133248896654028
+GMM Mean MAE (n_components=2): 0.07901208977813928
+DP-GMM Mean MAE (n_components=2): 0.07608529143007368
+GMM Mean NLL Loss (n_components=2): 1.2355138012477662
+DP-GMM Mean NLL Loss (n_components=2): 1.2618264708490208
+GMM Mean MAE (n_components=3): 0.08149890123241753
+DP-GMM Mean MAE (n_components=3): 0.07626948678337683
+GMM Mean NLL Loss (n_components=3): 1.2837724779642532
+DP-GMM Mean NLL Loss (n_components=3): 1.265310725193603
+GMM Mean MAE (n_components=4): 0.081567495758796
+DP-GMM Mean MAE (n_components=4): 0.07630063851550221
+GMM Mean NLL Loss (n_components=4): 1.3675916274888495
+DP-GMM Mean NLL Loss (n_components=4): 1.266332727677301
+GMM Mean MAE (n_components=5): 0.08089210980700076
+DP-GMM Mean MAE (n_components=5): 0.07616894345585519
+GMM Mean NLL Loss (n_components=5): 1.4957427506300796
+DP-GMM Mean NLL Loss (n_components=5): 1.2675039068530023
+Training Point: 75
+KinPFN Mean MAE Loss: 0.03327111527323723
+KinPFN Mean NLL Loss: 1.1916415691375732
+KDE Mean MAE: 0.06441539498017546
+KDE Mean NLL Loss: 1.2003427246174454
+GMM Mean MAE (n_components=2): 0.07726389579459564
+DP-GMM Mean MAE (n_components=2): 0.0755993822289369
+GMM Mean NLL Loss (n_components=2): 1.2036376034124563
+DP-GMM Mean NLL Loss (n_components=2): 1.2304933178099775
+GMM Mean MAE (n_components=3): 0.08013723889581717
+DP-GMM Mean MAE (n_components=3): 0.07624138616479717
+GMM Mean NLL Loss (n_components=3): 1.2131559782437147
+DP-GMM Mean NLL Loss (n_components=3): 1.2322668130528753
+GMM Mean MAE (n_components=4): 0.07987623338242401
+DP-GMM Mean MAE (n_components=4): 0.07630468645665785
+GMM Mean NLL Loss (n_components=4): 1.2480023499976545
+DP-GMM Mean NLL Loss (n_components=4): 1.2336498616810212
+GMM Mean MAE (n_components=5): 0.07965051496970886
+DP-GMM Mean MAE (n_components=5): 0.0760298016550835
+GMM Mean NLL Loss (n_components=5): 1.2952704389448746
+DP-GMM Mean NLL Loss (n_components=5): 1.2337304569475365
+Training Point: 100
+KinPFN Mean MAE Loss: 0.029611824080348015
+KinPFN Mean NLL Loss: 1.1857565641403198
+KDE Mean MAE: 0.06300199138610915
+KDE Mean NLL Loss: 1.1956531222409656
+GMM Mean MAE (n_components=2): 0.07556938363724283
+DP-GMM Mean MAE (n_components=2): 0.07452369037697917
+GMM Mean NLL Loss (n_components=2): 1.1933041288496287
+DP-GMM Mean NLL Loss (n_components=2): 1.2149794112923618
+GMM Mean MAE (n_components=3): 0.07783610639808765
+DP-GMM Mean MAE (n_components=3): 0.07509366747413176
+GMM Mean NLL Loss (n_components=3): 1.1910107640265613
+DP-GMM Mean NLL Loss (n_components=3): 1.2155131605646712
+GMM Mean MAE (n_components=4): 0.07774757651400717
+DP-GMM Mean MAE (n_components=4): 0.0750929483223779
+GMM Mean NLL Loss (n_components=4): 1.211887485648446
+DP-GMM Mean NLL Loss (n_components=4): 1.2169188594208462
+GMM Mean MAE (n_components=5): 0.07775266933664574
+DP-GMM Mean MAE (n_components=5): 0.07511515654651851
+GMM Mean NLL Loss (n_components=5): 1.2373505989753968
+DP-GMM Mean NLL Loss (n_components=5): 1.21752589471365
+Training Point: 250
+KinPFN Mean MAE Loss: 0.020515572279691696
+KinPFN Mean NLL Loss: 1.1755905151367188
+KDE Mean MAE: 0.06242001338187212
+KDE Mean NLL Loss: 1.1874232981826771
+GMM Mean MAE (n_components=2): 0.07422764337894398
+DP-GMM Mean MAE (n_components=2): 0.07462247646811283
+GMM Mean NLL Loss (n_components=2): 1.1764289701369854
+DP-GMM Mean NLL Loss (n_components=2): 1.185326636197148
+GMM Mean MAE (n_components=3): 0.07636147063189952
+DP-GMM Mean MAE (n_components=3): 0.07599307911402838
+GMM Mean NLL Loss (n_components=3): 1.1620891895422691
+DP-GMM Mean NLL Loss (n_components=3): 1.1792742685260882
+GMM Mean MAE (n_components=4): 0.07629711081442488
+DP-GMM Mean MAE (n_components=4): 0.07591605183629191
+GMM Mean NLL Loss (n_components=4): 1.1611500305979803
+DP-GMM Mean NLL Loss (n_components=4): 1.180233506202227
+GMM Mean MAE (n_components=5): 0.07622935920855017
+DP-GMM Mean MAE (n_components=5): 0.07585744716889958
+GMM Mean NLL Loss (n_components=5): 1.164202826656611
+DP-GMM Mean NLL Loss (n_components=5): 1.1808528269100167
+Training Point: 500
+KinPFN Mean MAE Loss: 0.015487857162952423
+KinPFN Mean NLL Loss: 1.1715577840805054
+KDE Mean MAE: 0.061675365467822006
+KDE Mean NLL Loss: 1.1840505394671257
+GMM Mean MAE (n_components=2): 0.07303160219366153
+DP-GMM Mean MAE (n_components=2): 0.07410020170393866
+GMM Mean NLL Loss (n_components=2): 1.1714607492101428
+DP-GMM Mean NLL Loss (n_components=2): 1.1734906446065307
+GMM Mean MAE (n_components=3): 0.07558505382387333
+DP-GMM Mean MAE (n_components=3): 0.07571301074840983
+GMM Mean NLL Loss (n_components=3): 1.1541989454098192
+DP-GMM Mean NLL Loss (n_components=3): 1.16267857820843
+GMM Mean MAE (n_components=4): 0.07535715303235739
+DP-GMM Mean MAE (n_components=4): 0.07561757539954829
+GMM Mean NLL Loss (n_components=4): 1.1505704790687907
+DP-GMM Mean NLL Loss (n_components=4): 1.1630813082767595
+GMM Mean MAE (n_components=5): 0.0751290893823811
+DP-GMM Mean MAE (n_components=5): 0.07558052848212597
+GMM Mean NLL Loss (n_components=5): 1.1498934095732614
+DP-GMM Mean NLL Loss (n_components=5): 1.163696062722468
+Training Point: 750
+KinPFN Mean MAE Loss: 0.013653009198606014
+KinPFN Mean NLL Loss: 1.1703331470489502
+KDE Mean MAE: 0.06170622074462929
+KDE Mean NLL Loss: 1.183248332130928
+GMM Mean MAE (n_components=2): 0.07297549195852181
+DP-GMM Mean MAE (n_components=2): 0.0739306045586656
+GMM Mean NLL Loss (n_components=2): 1.1695754010233883
+DP-GMM Mean NLL Loss (n_components=2): 1.170027258720186
+GMM Mean MAE (n_components=3): 0.07564641322387416
+DP-GMM Mean MAE (n_components=3): 0.07589353595258878
+GMM Mean NLL Loss (n_components=3): 1.1519137788214528
+DP-GMM Mean NLL Loss (n_components=3): 1.1565153251509643
+GMM Mean MAE (n_components=4): 0.07534657482495384
+DP-GMM Mean MAE (n_components=4): 0.07575914072985225
+GMM Mean NLL Loss (n_components=4): 1.1476235239436134
+DP-GMM Mean NLL Loss (n_components=4): 1.1562151224658754
+GMM Mean MAE (n_components=5): 0.0750649850444451
+DP-GMM Mean MAE (n_components=5): 0.07579607333688554
+GMM Mean NLL Loss (n_components=5): 1.1457976421868235
+DP-GMM Mean NLL Loss (n_components=5): 1.1566439576380134
+Training Point: 1000
+KinPFN Mean MAE Loss: 0.01255162712186575
+KinPFN Mean NLL Loss: 1.1697214841842651
+KDE Mean MAE: 0.06153547749098779
+KDE Mean NLL Loss: 1.1827650998206902
+GMM Mean MAE (n_components=2): 0.07275729867452614
+DP-GMM Mean MAE (n_components=2): 0.07364042318325925
+GMM Mean NLL Loss (n_components=2): 1.1689940168832447
+DP-GMM Mean NLL Loss (n_components=2): 1.1682667621436487
+GMM Mean MAE (n_components=3): 0.07541656403068572
+DP-GMM Mean MAE (n_components=3): 0.07568922405812009
+GMM Mean NLL Loss (n_components=3): 1.1507695560482658
+DP-GMM Mean NLL Loss (n_components=3): 1.1533492279054585
+GMM Mean MAE (n_components=4): 0.0751082893094485
+DP-GMM Mean MAE (n_components=4): 0.07562343776077117
+GMM Mean NLL Loss (n_components=4): 1.145842136243237
+DP-GMM Mean NLL Loss (n_components=4): 1.15258616768578
+GMM Mean MAE (n_components=5): 0.07474289183528299
+DP-GMM Mean MAE (n_components=5): 0.07557052556542664
+GMM Mean NLL Loss (n_components=5): 1.1437951528608823
+DP-GMM Mean NLL Loss (n_components=5): 1.152947118481665
+
+KS Statistic:
+Training Point: 10
+KinPFN Mean KS Loss: 0.1615377515554428
+KDE Mean KS Loss: 0.15896804990933813
+GMM Mean KS Loss (n_components=2): 0.2084395652689695
+DP-GMM Mean KS Loss (n_components=2): 0.16949885370128587
+GMM Mean KS Loss (n_components=3): 0.22102441261617475
+DP-GMM Mean KS Loss (n_components=3): 0.16943516529148117
+GMM Mean KS Loss (n_components=4): 0.22927792027205446
+DP-GMM Mean KS Loss (n_components=4): 0.16910960616213827
+GMM Mean KS Loss (n_components=5): 0.23523117459076817
+DP-GMM Mean KS Loss (n_components=5): 0.16824060782355593
+Training Point: 25
+KinPFN Mean KS Loss: 0.10976286232471466
+KDE Mean KS Loss: 0.13441373927512743
+GMM Mean KS Loss (n_components=2): 0.17051242456966995
+DP-GMM Mean KS Loss (n_components=2): 0.15054260860519844
+GMM Mean KS Loss (n_components=3): 0.1793734334526484
+DP-GMM Mean KS Loss (n_components=3): 0.15063154089225328
+GMM Mean KS Loss (n_components=4): 0.18287384256703565
+DP-GMM Mean KS Loss (n_components=4): 0.150048687585883
+GMM Mean KS Loss (n_components=5): 0.1835573493477982
+DP-GMM Mean KS Loss (n_components=5): 0.14936755528026818
+Training Point: 50
+KinPFN Mean KS Loss: 0.08086365461349487
+KDE Mean KS Loss: 0.12777439114585204
+GMM Mean KS Loss (n_components=2): 0.15860372270718098
+DP-GMM Mean KS Loss (n_components=2): 0.14963438894417275
+GMM Mean KS Loss (n_components=3): 0.1644397836422676
+DP-GMM Mean KS Loss (n_components=3): 0.14987679355865197
+GMM Mean KS Loss (n_components=4): 0.16741040812677857
+DP-GMM Mean KS Loss (n_components=4): 0.1500075474460104
+GMM Mean KS Loss (n_components=5): 0.16954259474195857
+DP-GMM Mean KS Loss (n_components=5): 0.149908590263009
+Training Point: 75
+KinPFN Mean KS Loss: 0.07000704109668732
+KDE Mean KS Loss: 0.1256147548683303
+GMM Mean KS Loss (n_components=2): 0.15412855739383652
+DP-GMM Mean KS Loss (n_components=2): 0.14875593461042766
+GMM Mean KS Loss (n_components=3): 0.1585960518683922
+DP-GMM Mean KS Loss (n_components=3): 0.14950909805173873
+GMM Mean KS Loss (n_components=4): 0.16040023844157966
+DP-GMM Mean KS Loss (n_components=4): 0.14960536409943267
+GMM Mean KS Loss (n_components=5): 0.162546214667511
+DP-GMM Mean KS Loss (n_components=5): 0.14906518855858306
+Training Point: 100
+KinPFN Mean KS Loss: 0.06321664899587631
+KDE Mean KS Loss: 0.12312059352745479
+GMM Mean KS Loss (n_components=2): 0.15103903322079615
+DP-GMM Mean KS Loss (n_components=2): 0.14708123619563782
+GMM Mean KS Loss (n_components=3): 0.15368753083718084
+DP-GMM Mean KS Loss (n_components=3): 0.14751779654882471
+GMM Mean KS Loss (n_components=4): 0.15467125306272259
+DP-GMM Mean KS Loss (n_components=4): 0.14748933661093605
+GMM Mean KS Loss (n_components=5): 0.15636804730048756
+DP-GMM Mean KS Loss (n_components=5): 0.14755188508080033
+Training Point: 250
+KinPFN Mean KS Loss: 0.048384569585323334
+KDE Mean KS Loss: 0.12173186974506518
+GMM Mean KS Loss (n_components=2): 0.14819439856365585
+DP-GMM Mean KS Loss (n_components=2): 0.14737749118723184
+GMM Mean KS Loss (n_components=3): 0.1493317986368204
+DP-GMM Mean KS Loss (n_components=3): 0.1483084897824144
+GMM Mean KS Loss (n_components=4): 0.14892038315705433
+DP-GMM Mean KS Loss (n_components=4): 0.14809367168390833
+GMM Mean KS Loss (n_components=5): 0.14990988658865462
+DP-GMM Mean KS Loss (n_components=5): 0.14820066453162148
+Training Point: 500
+KinPFN Mean KS Loss: 0.0389397069811821
+KDE Mean KS Loss: 0.12053885971933831
+GMM Mean KS Loss (n_components=2): 0.14652117325336486
+DP-GMM Mean KS Loss (n_components=2): 0.14719376552375127
+GMM Mean KS Loss (n_components=3): 0.14660928434549175
+DP-GMM Mean KS Loss (n_components=3): 0.1472736629702976
+GMM Mean KS Loss (n_components=4): 0.14621840299886665
+DP-GMM Mean KS Loss (n_components=4): 0.14706930392075743
+GMM Mean KS Loss (n_components=5): 0.14643515782214203
+DP-GMM Mean KS Loss (n_components=5): 0.1469785807860352
+Training Point: 750
+KinPFN Mean KS Loss: 0.03590422868728638
+KDE Mean KS Loss: 0.1205909991574774
+GMM Mean KS Loss (n_components=2): 0.14634287499729845
+DP-GMM Mean KS Loss (n_components=2): 0.1468894537216741
+GMM Mean KS Loss (n_components=3): 0.14665232548358031
+DP-GMM Mean KS Loss (n_components=3): 0.1469077054657323
+GMM Mean KS Loss (n_components=4): 0.14613625731092866
+DP-GMM Mean KS Loss (n_components=4): 0.14660757290730406
+GMM Mean KS Loss (n_components=5): 0.1461967179877889
+DP-GMM Mean KS Loss (n_components=5): 0.1465493214668061
+Training Point: 1000
+KinPFN Mean KS Loss: 0.03360062465071678
+KDE Mean KS Loss: 0.1203564922939428
+GMM Mean KS Loss (n_components=2): 0.14598931289371875
+DP-GMM Mean KS Loss (n_components=2): 0.14654239198048113
+GMM Mean KS Loss (n_components=3): 0.14619485461872814
+DP-GMM Mean KS Loss (n_components=3): 0.146288197991146
+GMM Mean KS Loss (n_components=4): 0.14539709762284322
+DP-GMM Mean KS Loss (n_components=4): 0.14609208380409697
+GMM Mean KS Loss (n_components=5): 0.1453776862018211
+DP-GMM Mean KS Loss (n_components=5): 0.1459607342268429
