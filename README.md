@@ -25,10 +25,11 @@ To address these challenges, we introduce **KinPFN**, a deep learning model that
 
 ### Installation
 
-To use KinPFN, download this repository and install the necessary dependencies. It's recommended to use a virtual environment, such as conda, for managing dependencies.  
+To use KinPFN, clone this repository and install the necessary dependencies. It's recommended to use a virtual environment, such as conda, for managing dependencies.  
 The following commands assume that you have conda installed. If not, you can download it from the [official conda page](https://docs.conda.io/en/latest/miniconda.html).
 ```bash
-cd KinPFN-F506
+git clone https://github.com/automl/KinPFN.git
+cd KinPFN
 conda create --name kinpfn_iclr_env python=3.9
 conda activate kinpfn_iclr_env
 pip install -r requirements.txt
