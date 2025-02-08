@@ -2,6 +2,7 @@ format:
 	black .
 	
 test:
+	black --check .
 	pytest
 
 lint:

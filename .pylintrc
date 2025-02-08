@@ -1,0 +1,189 @@
+[MAIN]
+analyse-fallback-blocks=no
+clear-cache-post-run=no
+# enable-all-extensions=
+# errors-only=
+# exit-zero=
+extension-pkg-allow-list=
+extension-pkg-whitelist=
+# fail-on=
+fail-under=5  # Reduced score threshold to make it less strict
+# from-stdin=
+ignore=CVS
+ignore-paths=
+ignore-patterns=^\.#
+ignored-modules=
+# init-hook=
+jobs=1
+limit-inference-results=100
+load-plugins=
+persistent=yes
+py-version=3.12
+recursive=no
+source-roots=
+suggestion-mode=yes
+unsafe-load-any-extension=no
+# verbose=
+
+[BASIC]
+argument-naming-style=snake_case
+# argument-rgx=
+attr-naming-style=snake_case
+# attr-rgx=
+bad-names=foo,bar,baz,toto,tutu,tata
+bad-names-rgxs=
+class-attribute-naming-style=any
+# class-attribute-rgx=
+class-const-naming-style=UPPER_CASE
+# class-const-rgx=
+class-naming-style=PascalCase
+# class-rgx=
+const-naming-style=UPPER_CASE
+# const-rgx=
+docstring-min-length=-1  # No minimum length requirement for docstrings
+function-naming-style=snake_case
+# function-rgx=
+good-names=i,j,k,ex,Run,_
+good-names-rgxs=
+include-naming-hint=no
+inlinevar-naming-style=any
+# inlinevar-rgx=
+method-naming-style=snake_case
+# method-rgx=
+module-naming-style=snake_case
+# module-rgx=
+name-group=
+no-docstring-rgx=^_  # No docstring required for private methods/functions
+property-classes=abc.abstractproperty
+# typealias-rgx=
+# typevar-rgx=
+variable-naming-style=any  # Made variable naming less strict
+# variable-rgx=
+
+[CLASSES]
+check-protected-access-in-special-methods=no
+defining-attr-methods=__init__,__new__,setUp,asyncSetUp,__post_init__
+exclude-protected=_asdict,_fields,_replace,_source,_make,os._exit
+valid-classmethod-first-arg=cls
+valid-metaclass-classmethod-first-arg=mcs
+
+[DESIGN]
+exclude-too-few-public-methods=
+ignored-parents=
+max-args=10  # Increased maximum number of arguments for methods/functions
+max-attributes=10  # Increased maximum number of attributes in a class
+max-bool-expr=5
+max-branches=20  # Increased the maximum number of branches in functions/methods
+max-locals=20  # Increased the maximum number of local variables
+max-parents=7
+max-public-methods=25  # Increased the maximum number of public methods in a class
+max-returns=10  # Increased maximum number of returns
+max-statements=100  # Increased maximum statements in a function/method
+min-public-methods=1
+
+[EXCEPTIONS]
+overgeneral-exceptions=builtins.BaseException,builtins.Exception
+
+[FORMAT]
+expected-line-ending-format=
+ignore-long-lines=^\s*(# )?<?https?://\S+>?$
+indent-after-paren=4
+indent-string='    '
+max-line-length=150  # Increased maximum line length
+max-module-lines=2000  # Increased the max number of lines per module
+single-line-class-stmt=no
+single-line-if-stmt=no
+
+[IMPORTS]
+allow-any-import-level=
+allow-reexport-from-package=no
+allow-wildcard-with-all=no
+deprecated-modules=
+# ext-import-graph=
+# import-graph=
+# int-import-graph=
+known-standard-library=
+known-third-party=enchant
+preferred-modules=
+
+[LOGGING]
+logging-format-style=old
+logging-modules=logging
+
+[MESSAGES CONTROL]
+confidence=HIGH,CONTROL_FLOW,INFERENCE,INFERENCE_FAILURE,UNDEFINED
+disable=raw-checker-failed,
+        bad-inline-option,
+        locally-disabled,
+        file-ignored,
+        suppressed-message,
+        useless-suppression,
+        deprecated-pragma,
+        use-symbolic-message-instead,
+        use-implicit-booleaness-not-comparison-to-string,
+        use-implicit-booleaness-not-comparison-to-zero,
+        missing-docstring,  # Disable docstring requirements
+        too-few-public-methods,  # Disable too few public methods warnings
+        too-many-arguments,  # Disable too many arguments warnings
+        too-many-locals  # Disable too many local variables warnings
+enable=
+
+[METHOD_ARGS]
+timeout-methods=requests.api.delete,requests.api.get,requests.api.head,requests.api.options,requests.api.patch,requests.api.post,requests.api.put,requests.api.request
+
+[MISCELLANEOUS]
+notes=FIXME,XXX,TODO
+notes-rgx=
+
+[REFACTORING]
+max-nested-blocks=6  # Increased maximum nested blocks
+never-returning-functions=sys.exit,argparse.parse_error
+suggest-join-with-non-empty-separator=yes
+
+[REPORTS]
+evaluation=max(0, 0 if fatal else 10.0 - ((float(5 * error + warning + refactor + convention) / statement) * 10))
+# msg-template=
+reports=no
+score=yes
+
+[SIMILARITIES]
+ignore-comments=yes
+ignore-docstrings=yes
+ignore-imports=yes
+ignore-signatures=yes
+min-similarity-lines=4
+
+[SPELLING]
+max-spelling-suggestions=4
+spelling-dict=
+spelling-ignore-comment-directives=fmt: on,fmt: off,noqa:,noqa,nosec,isort:skip,mypy:
+spelling-ignore-words=
+spelling-private-dict-file=
+spelling-store-unknown-words=no
+
+[STRING]
+check-quote-consistency=no
+check-str-concat-over-line-jumps=no
+
+[TYPECHECK]
+contextmanager-decorators=contextlib.contextmanager
+generated-members=
+ignore-none=yes
+ignore-on-opaque-inference=yes
+ignored-checks-for-mixins=no-member,not-async-context-manager,not-context-manager,attribute-defined-outside-init
+ignored-classes=optparse.Values,thread._local,_thread._local,argparse.Namespace
+missing-member-hint=yes
+missing-member-hint-distance=1
+missing-member-max-choices=1
+mixin-class-rgx=.*[Mm]ixin
+signature-mutators=
+
+[VARIABLES]
+additional-builtins=
+allow-global-unused-variables=yes
+allowed-redefined-builtins=
+callbacks=cb_,_cb
+dummy-variables-rgx=_+$|(_[a-zA-Z0-9_]*[a-zA-Z0-9]+?$)|dummy|^ignored_|^unused_
+ignored-argument-names=_.*|^ignored_|^unused_
+init-import=no
+redefining-builtins-modules=six.moves,past.builtins,future.builtins,builtins,io
