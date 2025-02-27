@@ -41,7 +41,7 @@ By running these commands, you'll set up a Python environment with all required 
 See the [tutorial](./notebooks/kinpfn_tutorial.ipynb) for a guide on how to use KinPFN to approximate RNA first passage time distributions.
 
 
-### Cite the work
+## Cite the work
 
 KinPFN was published as a conference paper at the International Conference on Learning Representations (ICLR) 2025:
 ```
