@@ -40,3 +40,18 @@ By running these commands, you'll set up a Python environment with all required 
 ### Tutorial
 See the [tutorial](./notebooks/kinpfn_tutorial.ipynb) for a guide on how to use KinPFN to approximate RNA first passage time distributions.
 
+
+### Cite the work
+
+KinPFN was published as a conference paper at the International Conference on Learning Representations (ICLR) 2025:
+```
+@inproceedings{
+scheuer2025kinpfn,
+title={Kin{PFN}: Bayesian Approximation of {RNA} Folding Kinetics using Prior-Data Fitted Networks},
+author={Dominik Scheuer and Frederic Runge and J{\"o}rg K.H. Franke and Michael T. Wolfinger and Christoph Flamm and Frank Hutter},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=E1m5yGMOiV}
+}
+```
+
